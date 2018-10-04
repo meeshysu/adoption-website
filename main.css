@@ -2,3 +2,12 @@ body {
     background-color: lavender;
 }
 
+.pet-card {
+    margin: 20px;
+    display: inline-block;
+}
+
+.btn {
+    margin: 20px;
+    align-self: center;
+}
