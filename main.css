@@ -2,10 +2,14 @@ body {
     background-color: lavender;
 }
 
-.pet-card {
-    margin: 20px;
-    display: inline-block;
-    justify-content: space-around;
+#petsContainer {
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .btn {
@@ -13,10 +17,7 @@ body {
     align-self: center;
 }
 
-.card-img-top {
-    height: 220px;
-    width: 220px;
-    object-fit: cover;
-    object-position: 0 0;
-    margin: 0 auto;
+.petPic {
+    max-width: 100%;
+    object-fit: inherit;
 }
