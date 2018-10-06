@@ -11,9 +11,9 @@ const getPetz = () => {
     return pets;
 };
 
-const petsBuilder = () => {
+const petsBuilder = (petsArray) => {
     let domString = '';
-    pets.forEach((pet) => { 
+    petsArray.forEach((pet) => { 
     domString += `<div class="pet-card">`
     domString += `<div id="pet-card" class="petCard card border-success mb-3 col-2" style="max-width: 18rem;">`;
     domString +=     `<h4 class="card-title">${pet.name}</h4>`;

@@ -5,9 +5,18 @@ body {
 .pet-card {
     margin: 20px;
     display: inline-block;
+    justify-content: space-around;
 }
 
 .btn {
     margin: 20px;
     align-self: center;
+}
+
+.card-img-top {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    object-position: 0 0;
+    margin: 0 auto;
 }
