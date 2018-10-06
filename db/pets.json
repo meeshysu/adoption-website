@@ -39,7 +39,7 @@
 			"color": "White",
 			"specialSkill": "Is the most amazing dog you will ever meet.",
 			"type": "dog",
-			"imageUrl": "Coopie.png"
+			"imageUrl": "./images/Coopie.png"
 		},
 		{
 			"name": "Oreo",
@@ -144,7 +144,7 @@
 			"color": "Red",
 			"specialSkill": "Owns a Nintendo Power Glove.",
 			"type": "cat",
-			"imageUrl": "MissKitty.png"
+			"imageUrl": "./images/MissKitty.png"
 		  },
 		  {
 			"name": "Snuggles",
