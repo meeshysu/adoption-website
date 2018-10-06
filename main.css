@@ -1,22 +1,64 @@
 body {
-    background-color: lavender;
+    background-image: url(http://www.ucatx.cat/wallpic/full/46/465757/warm-wallpaper.jpg);
+    background-attachment: fixed;
 }
 
-.pet-card {
+#petsContainer {
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.all, .cats, .dogs, .dinos {
     margin: 20px;
-    display: inline-block;
-    justify-content: space-around;
 }
 
-.btn {
-    margin: 20px;
-    align-self: center;
+.petPic {
+    max-width: 100%;
+    object-fit: contain;
 }
 
-.card-img-top {
-    height: 220px;
-    width: 220px;
-    object-fit: cover;
-    object-position: 0 0;
-    margin: 0 auto;
+.card-header {
+    background-color: #eeeeee;
+    font-size: 25px;
+    font-family: 'Charmonman', cursive;
+}
+
+.card {
+    border-color: #eeeeee;
+    border-width: 2px;
+}
+
+h2 {
+    text-align: center;
+    padding: 29px;
+    font-family: 'Charmonman', cursive;
+    font-size: 60px;
+}
+
+#typecat {
+    background-color: #b2ebf2;
+    padding: 10px;
+    color: #0097a7;
+}
+
+#typedog {
+    background-color: #ffecb3;
+    padding: 10px;
+    color: #ff8f00;
+}
+
+#typedino {
+    background-color: #81c784;
+    padding: 10px;
+    color: #2e7d32;
 }
