@@ -130,7 +130,7 @@
 			"color": "Blue",
 			"specialSkill": "Listens attentively to boring stories.",
 			"type": "dog",
-			"imageUrl": "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
+			"imageUrl": "https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&h=350"
 		  },
 		  {
 			"name": "Spooky",
@@ -143,8 +143,8 @@
 			"name": "Miss kitty",
 			"color": "Red",
 			"specialSkill": "Owns a Nintendo Power Glove.",
-			"type": "dino",
-			"imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
+			"type": "cat",
+			"imageUrl": "MissKitty.png"
 		  },
 		  {
 			"name": "Snuggles",

@@ -4,7 +4,7 @@ body {
 
 #petsContainer {
     padding: 20px;
-    margin: 30px;
+    margin: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -12,12 +12,52 @@ body {
     justify-content: space-evenly;
 }
 
-.btn {
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.all, .cats, .dogs, .dinos {
     margin: 20px;
-    align-self: center;
 }
 
 .petPic {
     max-width: 100%;
-    object-fit: inherit;
+    object-fit: contain;
+}
+
+.card-header {
+    background-color: #eeeeee;
+    font-size: 25px;
+    font-family: 'Charmonman', cursive;
+}
+
+.card {
+    border-color: #eeeeee;
+    border-width: 2px;
+}
+
+h2 {
+    text-align: center;
+    padding: 29px;
+    font-family: 'Charmonman', cursive;
+    font-size: 60px;
+}
+
+#typecat {
+    background-color: #b2ebf2;
+    padding: 10px;
+    color: #0097a7;
+}
+
+#typedog {
+    background-color: #ffecb3;
+    padding: 10px;
+    color: #ff8f00;
+}
+
+#typedino {
+    background-color: #81c784;
+    padding: 10px;
+    color: #2e7d32;
 }
