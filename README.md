@@ -4,9 +4,9 @@ This website was a fantastic project to help us learn MODULES! Of course, that w
 
 ## Screenshot
 
-* Disclaimer: The background photo does not repeat as the screenshot displays. The website extension I use unfortunately captures it as such.
-
 ![main_screenshot](./images/AdoptionWebsite1.png)
+
+* Disclaimer: The background photo does not repeat as the screenshot displays. The website extension I use unfortunately captures it as such.
 
 ## How to run this project
 * Use npm to install http-server in your terminal:
