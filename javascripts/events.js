@@ -3,7 +3,6 @@ import {petsBuilder, pets} from './components/petComponent.js';
 const sortFluffies = (e) => {
     const petType = e.target.id;
     if(petType === 'allId') {
-        petsBuilder(pets);
      } else {
             const filteredAnimals = pets.filter(x => x.petType === petType);
             petsBuilder(filteredAnimals);
